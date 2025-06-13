@@ -1,9 +1,13 @@
-<div class="modal" tabindex="-1" id="create-modal">
+<div class="modal" tabindex="-1" id="edit-modal">
     <div class="modal-dialog">
-        {{ Form::open(['url' => action('PersonController@store'), 'method' => 'POST', 'id' => 'person_create_form']) }}
+        {{ Form::open([
+            'url' => action('PersonController@store'),
+            'method' => 'POST',
+            'id' => 'person_edit_form'
+            ]) }}
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Criar nova pessoa</h5>
+                <h5 class="modal-title">Editar</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

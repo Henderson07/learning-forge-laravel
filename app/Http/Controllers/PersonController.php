@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\View;
-use Illuminate\Http\Request;
 use App\Http\Services\PersonService;
-
+use Illuminate\Http\Request;
 
 class PersonController extends Controller
 {

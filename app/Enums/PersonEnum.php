@@ -13,7 +13,7 @@ class PersonEnum
         1 => self::TYPE_JURIDIC,
     ];
 
-    // Mapeamento de índices para valores
+    // Mapeamento de valores para índices
     private static $valueMap = [
         self::TYPE_FISIC => 0,
         self::TYPE_JURIDIC => 1,
